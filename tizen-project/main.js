@@ -166,6 +166,7 @@ function getMovie(title) {
             var services = "";
             var flatrates = [];
             var shownBefore = [];
+            var even = false;
             try {
                 for(i = 0; i < item.offers.length; i++) {
                     if (shownBefore.includes(item.offers[i].provider_id)){
@@ -253,7 +254,14 @@ function getMovie(title) {
                         }
 
                         if(show && shouldBeShown(item.offers[i].provider_id)) {
-                            document.getElementById("detail-availability").innerHTML = document.getElementById("detail-availability").innerHTML + '<div class="detail-services"><img src="icons/'+ item.offers[i].provider_id +'.svg" class="detail-services-logo"><p class="detail-services-price" id="price-' + item.offers[i].provider_id + '">' + price + '</p></div>';
+                            if(even){
+                                document.getElementById("detail-availability").innerHTML = document.getElementById("detail-availability").innerHTML + '<div class="detail-services-e"><img src="icons/'+ item.offers[i].provider_id +'.svg" class="detail-services-logo"><p class="detail-services-price" id="price-' + item.offers[i].provider_id + '">' + price + '</p></div>';
+                                even = false;
+                            }
+                            else {
+                                document.getElementById("detail-availability").innerHTML = document.getElementById("detail-availability").innerHTML + '<div class="detail-services-o"><img src="icons/'+ item.offers[i].provider_id +'.svg" class="detail-services-logo"><p class="detail-services-price" id="price-' + item.offers[i].provider_id + '">' + price + '</p></div>';
+                                even = true;                                
+                            }
 
                             shownBefore.push(item.offers[i].provider_id);
 
