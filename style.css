@@ -2,15 +2,24 @@ body {
     font-family: 'Titillium Web';
     background: #081C24;
     color: #FFF;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 /* ------------------------------------
                   HOME
 -------------------------------------*/
 
+#home {
+    overflow: hidden;
+}
+
 #queryWrapper {
+    z-index: 5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,10 +41,19 @@ body {
     outline: none;
 }
 
-#logoBig {
+#BigLogoWrapper {
+    width: 750px;
+    height: 750px;
     position: absolute;
     right: -206px;
     bottom: -125px;
+    overflow: hidden;
+}
+
+#logoBig {
+    width: 100%;
+    overflow: hidden;
+    
 
 }
 
@@ -48,6 +66,8 @@ body {
 }
 
 #logoSmall {
+    width: 178px;
+    height: 47px;
     margin: 0 auto;
 }
 
