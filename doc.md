@@ -1,5 +1,5 @@
-## Provider IDs
-#By Number
+### Provider IDs
+## By Number
 
   2 - iTunes
   3 - Google Play
