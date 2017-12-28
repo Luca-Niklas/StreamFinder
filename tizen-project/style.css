@@ -51,7 +51,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 600px;
     width: 100%;
 }
 
@@ -262,7 +262,6 @@ p {
     position: absolute;
     width: 640px;
     left: 640px;
-    background: #115154;
 }
 
 #right {
@@ -271,13 +270,30 @@ p {
     right: 0;
 }
 
+#detail-availability {
+    margin-top: 30px;
+}
+
+.detail-services-o {
+    width: 222px;
+    float: left;
+}
+
+.detail-services-e {
+    width: 222px;
+    float: right;
+}
+
 .detail-services-logo {
     width: 222px;
     height: 66px;
+    margin-bottom: 10px;
 }
 
 .detail-services-price {
     text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 #box1 {
@@ -321,11 +337,16 @@ p {
 #detail-description {
     margin-top: 20px;
     font-size: 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 16;
+    -webkit-box-orient: vertical;
+    word-break: keep-all;
     font-weight: 400;
 }
 
 #besch {
-    margin-top: 170px;
+    margin-top: 140px;
 }
 
 #info {
