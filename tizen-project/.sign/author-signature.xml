@@ -76,7 +76,7 @@
 </Reference>
 <Reference URI="main.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>TnUzTMZqaOm9gm42mX2ti48x7NGLV5CItd/2GEYpd/s=</DigestValue>
+<DigestValue>dlKVJiONyg8GfSXN5QvDDS3DEcI5BRssnrknkryOOQM=</DigestValue>
 </Reference>
 <Reference URI="res%2FLogoBig.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -100,7 +100,7 @@
 </Reference>
 <Reference URI="style.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>To9rHRWthcPKfJIxCRYT2KPrMIJt2U+Ou2oOBi+sta4=</DigestValue>
+<DigestValue>MMU4amEY8VDFSvlP6tAt617kAqTZ7R17CkhTCMz5Nno=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -111,9 +111,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-Xr4u+n8Q2sMtJdas8dwLmo0VM25FLZPfJVGeGdk6RKpLY8FW974DVnEhg4hZMM2RFTjWo18Ia3CI
-n5TQA5ijWK0yDHvaG/MMeidgfDZFsIOr15Syi4GynfU8Th/uYtw3XHCu5/zazNROWrMSH3/nWhii
-4XI9hkzFlenimtUa9DI=
+J+f6yhyk+CQ7p5lQDp19G7yDCSxY5IUcyVuSD5jCFbk5gYE+jo67Auz1ilQea3GgBlGmDlMNV5xV
+HczaRXVbk1WGJzMDZiaquLTLj2mMhFj+E+KyECkeX095VDCteDhwn4zkG4JYCi9fviYOgsxOCzPU
+vdZ7Fkr6eqwZgCaKkes=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
