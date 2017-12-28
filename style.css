@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+@font-face {
+    font-family: "SKY";
+    src: url(res/SKYfontThick.ttf) format("truetype");
+}
+
 h1 {
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
@@ -288,6 +293,7 @@ p {
     width: 222px;
     height: 66px;
     margin-bottom: 10px;
+    font-family: 'SKY';
 }
 
 .detail-services-price {
@@ -351,4 +357,54 @@ p {
 
 #info {
     margin-top: 55px;
+}
+
+#tmdb {
+    width: 24px;
+    height: 26px;
+}
+
+#age {
+    width: 26px;
+    height: 26px;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#first {
+    width: 40px;
+}
+
+#second {
+    width: 345px;
+    padding-bottom: 2px;
+}
+
+#second1 {
+    width: 345px;
+}
+
+#third {
+    text-align: right;
+    padding-bottom: 2px;
+}
+
+#third1 {
+    text-align: right;
+}
+
+#secondTable {
+    margin-top: 20px;
+}
+
+#thirdTable {
+    margin-top: 20px;
+}
+
+#time {
+    font-size: 29px;
+    color: #00DCFF;
 }

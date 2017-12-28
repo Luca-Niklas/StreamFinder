@@ -162,7 +162,7 @@ function getMovie(title) {
                 normalRating = false;
                 rating = "Keine Angabe";
             }
-            var minAge = "ab " + item.age_certification;
+            var minAge = "ab " + item.age_certification + " Jahren";
             var services = "";
             var flatrates = [];
             var shownBefore = [];
