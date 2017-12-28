@@ -17,6 +17,8 @@
             <p onclick="startSearch();">Suchen</p>
         </div>
         <div id="multiResults">
+            <p id="result-query"></p>
+            <p id="result-quant"></p>
             <div id="cards"></div>
         </div>
         <div id="result">
@@ -167,15 +169,19 @@
                 else if (item.object_type == "show"){
                     item.object_type = "Serie";
                 }
-                var info = item.object_type + " • " + item.original_release_year;
+                var type = item.object_type;
+                var release = item.original_release_year;
                 var description = item.short_description;
+                var minAge = "ab " + +item.age_certification;
 
-                showMovieCard(i, title, info, description, poster);
+                showMovieCard(i, title, type, description, poster, minAge, release);
             }
+            document.getElementById("result-query").innerHTML = document.getElementById("query").value;
+            document.getElementById("result-quant").innerHTML = result.total_results + " Ergebnisse";
             navTo("multiResults");
         }
 
-        function showMovieCard(i, title, info, description, poster) {
+        function showMovieCard(i, title, type, description, poster, minAge, release) {
             document.getElementById("cards").innerHTML = document.getElementById("cards").innerHTML + `
                 <div class="card" onclick="showDetails(`+i+`)">
                     <div class="card-left">
@@ -183,8 +189,10 @@
                     </div>
                     <div class="card-right">
                         <h1 class="card-title">` + title + `</h1>
-                        <h2 class="card-subtitle">` + info + `</h2>
+                        <h2 class="card-subtitle">` + release + `</h2>
+                        <h3 class="card-subsubtitle">` + type + `</h3>
                         <p class="card-description">` + description + `</p>
+                        <p class="card-min-age">` + minAge + `</p>
                     </div>
                 </div>
             `
@@ -196,12 +204,15 @@
             var item = lastResult.items[number]
             var title = item.title;
             console.log(item.poster);
+            var runtime;
             var poster = "http://images.justwatch.com" + item.poster  + "s592/Kino";
-            if (item.object_type == "movie"){
+            if (item.object_type == "Film"){
                 item.object_type = "Film";
+                runtime = item.runtime + " Minuten";
             } 
-            else if (item.object_type == "show"){
+            else if (item.object_type == "Serie"){
                 item.object_type = "Serie";
+                runtime = item.max_season_number + " Staffeln";
             }
             var year = item.original_release_year;
             var description = item.short_description;
@@ -212,7 +223,6 @@
                 }
             }
             var minAge = "ab " + item.age_certification;
-            var runtime = item.runtime + " Minuten";
             var services = "";
             var flatrates = [];
             shownBefore = [];
