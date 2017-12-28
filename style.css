@@ -1,9 +1,67 @@
+body {
+    font-family: 'Titillium Web';
+    background: #081C24;
+    color: #FFF;
+    overflow: hidden;
+    margin: 0;
+}
+
+/* ------------------------------------
+                  HOME
+-------------------------------------*/
+
+#queryWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+
+#query {
+    width: 700px;
+    border: none;
+    border-bottom: #FFF 2px solid;
+    background: transparent;
+    color: #FFF;
+    text-indent: 10px;
+    font-size: 25px;
+}
+
+#query:focus {
+    outline: none;
+}
+
+#logoBig {
+    position: absolute;
+    right: -206px;
+    bottom: -125px;
+
+}
+
+#logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+    width: 100%;
+}
+
+#logoSmall {
+    margin: 0 auto;
+}
+
+/* ------------------------------------
+                QUERY
+-------------------------------------*/
+
 .cards {
     
 }
 
 .card {
-    height: 23%;
+    /* height: 23%; */
+    height: 168px;
     margin-top: 1%;
     margin-bottom: 1%;
     width: 80%;

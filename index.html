@@ -1,5 +1,7 @@
 <html>
     <head>
+        <meta charset="utf-8">
+        
         <title>Test</title>
 
         <link rel="stylesheet" href="style.css">
@@ -13,8 +15,14 @@
             HIER LADEBLIDSCHIRM EINFÜGEN
         </div>
         <div id="home">
-            <input type="text" id="query">
-            <p onclick="startSearch();">Suchen</p>
+            <div id="logoWrapper">
+                <img id="logoSmall" src="res/logoSmall.png">
+            </div>
+            <div id="queryWrapper">
+                <input type="text" id="query" autofocus>
+                <p onclick="startSearch();">Suchen</p>
+            </div> 
+            <img id="logoBig" src="res/logoBig.png">
         </div>
         <div id="multiResults">
             <p id="result-query"></p>
