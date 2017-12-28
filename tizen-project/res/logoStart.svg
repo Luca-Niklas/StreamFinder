@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="3866.105 -2413.179 244.358 244.358">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #00dcff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #081c24;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-0.087" y1="-0.414" x2="0.792" y2="1.361" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bcd9"/>
+      <stop offset="1" stop-color="#00c8e8"/>
+    </linearGradient>
+  </defs>
+  <g id="Gruppe_34" data-name="Gruppe 34" transform="translate(2369.195 -2463.717)">
+    <g id="Gruppe_30" data-name="Gruppe 30" transform="translate(1496.911 50.538)">
+      <g id="Gruppe_17" data-name="Gruppe 17">
+        <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-1" cx="122.179" cy="122.179" r="122.179" transform="translate(0 0)"/>
+        <path id="Schnittmenge_4" data-name="Schnittmenge 4" class="cls-2" d="M.068,65.611,0,64.969A122.193,122.193,0,1,1,204.378,197.26C137.385,77.149.068,65.611.068,65.611Z" transform="translate(14.196 0)"/>
+        <path id="Schnittmenge_7" data-name="Schnittmenge 7" class="cls-3" d="M.111,11.559H.1l-.036,0v0c0-.021-.014-.134-.035-.335-.009-.086-.02-.188-.032-.305A122.059,122.059,0,0,1,6.543,0C38.465,4.524,147.52,28.068,204.2,142.28c.118.236.233.47.347.7l-.17.22C138.078,24.333,2.9,11.8.111,11.559Z" transform="translate(14.196 54.058)"/>
+      </g>
+      <path id="Vereinigungsmenge_1" data-name="Vereinigungsmenge 1" class="cls-4" d="M0,111.961c0-.026,0-.053,0-.079H0V13.254H0c0-.078,0-.155,0-.233A13.019,13.019,0,0,1,21.445,3.095L90.4,46.867v.18a18.232,18.232,0,0,1-1.036,31.488l-68.7,44.084-.1-.051A13.02,13.02,0,0,1,0,111.961Z" transform="translate(80.518 59.69)"/>
+    </g>
+  </g>
+</svg>

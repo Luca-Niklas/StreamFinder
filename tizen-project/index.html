@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Test</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <div id="opener">
+            <div id="startWrapper">
+
+                <img id="logoStart" src="res/logoStart.svg">
+                
+            </div>
+
+        </div>
+        <div id="loading">
+            HIER LADEBILDSCHIRM EINFÜGEN
+        </div>
+        <div id="home">
+            <div id="logoWrapper">
+                <img id="logoSmall" src="res/logoSmall.svg">
+            </div>
+            <div id="queryWrapper">
+                <input type="text" id="query" autofocus> 
+                <button id="but" onclick="startSearch();"><i class="material-icons">&#xE8B6;</i></button>
+                
+            </div> 
+            <div id="BigLogoWrapper">
+                <img id="logoBig" src="res/logoBig.svg">
+            </div>
+            
+        </div>
+        <div id="multiResults">
+            <div id="logoWrapper">
+                <img id="logoSmall" src="res/logoSmall.svg">
+            </div>
+            <div id="results">
+                <p id="result-query"></p>
+                <p id="result-quant"></p>
+            </div>
+            <div id="BigLogoWrapper">
+                <img id="logoBig" src="res/logoBig.svg">
+            </div>
+            <div id="cards"></div>
+        </div>
+        <div id="result">
+            <h1 id="detail-title"></h1>
+            <h2 id="detail-year"></h2>
+            <img id="detail-image">
+            <p id="detail-description"></p>
+            <p id="detail-rating"></p>
+            <p id="detail-min-age"></p>
+            <p id="detail-runtime"></p>
+            <div id="detail-availability"></div>
+        </div>
+        <div id="impressum"></div>
+
+        <script type="text/javascript" src="main.js"></script>
+        <script>
+            startup();
+
+            function startup() {
+                navTo("opener");
+                setTimeout(()=>{
+                    navTo("home");
+                }, 3000);
+            }
+        </script>
+    </body>
+</html>
