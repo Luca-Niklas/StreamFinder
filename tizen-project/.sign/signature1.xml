@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>hCXghmXlW9x36Svc3ViVI+vHYMUt61o/mF6XIzbCH/0=</DigestValue>
+<DigestValue>YzNuDixJuz0WUxo0zHoL2G9IZ8Jyvxpvj5IHw0TG0S0=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -80,7 +80,7 @@
 </Reference>
 <Reference URI="main.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>k/Qtj19UTaUDcrqkUcYK7j3GeyH/4URk5R9FnxebHHM=</DigestValue>
+<DigestValue>TnUzTMZqaOm9gm42mX2ti48x7NGLV5CItd/2GEYpd/s=</DigestValue>
 </Reference>
 <Reference URI="res%2FLogoBig.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -115,9 +115,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-UyO8xvVyKVvbrqrBa6nkZCTiJrlp8I0giis+CEZW7tPQ4eNwyRFavIBTOIvlE21HqbS9S+0UWpW8
-4K8CWGpWCgtc2mODZGnpLEtC1FG8hv3X+4Z8YpjZv19Noj4ED6qIlyckub7CF93f3tB1v0p9iOUY
-Pw3xd0FC1f0VVdpMqsM=
+B2Rb96/560ZrOyIaRNBI50/UnBRbH/Y9eKpHE4VcXMVqtgv8lN5T+7EI5FJ9HuBxBTBkpX4ciAKS
+OrTGMYwLo+c4GfQTvsiqAxnbh30zOET1QBwcGIDrIY0mSUoCCtbw+QQJlMVwll5nNqu7dtLp7Aoo
+kxrGLJFZ6Hl9F5Pzmq0=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

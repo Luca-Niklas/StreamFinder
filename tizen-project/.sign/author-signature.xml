@@ -76,7 +76,7 @@
 </Reference>
 <Reference URI="main.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>k/Qtj19UTaUDcrqkUcYK7j3GeyH/4URk5R9FnxebHHM=</DigestValue>
+<DigestValue>TnUzTMZqaOm9gm42mX2ti48x7NGLV5CItd/2GEYpd/s=</DigestValue>
 </Reference>
 <Reference URI="res%2FLogoBig.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -111,9 +111,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-dLyaRXTUAzu9/s/G7LfYWqWobwPfsHTJf2Xyf4rVdMm/DJ4rT/NLfAdVxh0xaL16+xbtkKrEaEKu
-Fp5iZFL1mrhfaikY9vBhg6WSZsfWpVSssBSBG52Tyq2Ta+OHCm8NvlIsAOUa6zSi5SP9lzd4YomY
-uZeq8dqS0ULHKhMG0hc=
+Xr4u+n8Q2sMtJdas8dwLmo0VM25FLZPfJVGeGdk6RKpLY8FW974DVnEhg4hZMM2RFTjWo18Ia3CI
+n5TQA5ijWK0yDHvaG/MMeidgfDZFsIOr15Syi4GynfU8Th/uYtw3XHCu5/zazNROWrMSH3/nWhii
+4XI9hkzFlenimtUa9DI=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
