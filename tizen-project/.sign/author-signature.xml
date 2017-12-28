@@ -72,11 +72,11 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>r7Cq+A5Ea00HxknQ9s3CPP66sY42fkYC4kQM1Gk/xbY=</DigestValue>
+<DigestValue>pzNHhDqWHfb3LfzD729Bk0e4Gs0s+JKtC+z1Co/FkIc=</DigestValue>
 </Reference>
 <Reference URI="main.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>nkHAbsDL8SmwURUlT8sHTY5dyFDs52L9ROhaNJ+VkUw=</DigestValue>
+<DigestValue>k/Qtj19UTaUDcrqkUcYK7j3GeyH/4URk5R9FnxebHHM=</DigestValue>
 </Reference>
 <Reference URI="res%2FLogoBig.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -100,7 +100,7 @@
 </Reference>
 <Reference URI="style.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>3oepgDoU+66i1rKZ/i/ltm9MD9PCuZiveeE/QHfwlRw=</DigestValue>
+<DigestValue>To9rHRWthcPKfJIxCRYT2KPrMIJt2U+Ou2oOBi+sta4=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -111,9 +111,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-gyAVulcNK6+kUNMSAmYgvmcFhCO4zBm2x/VN94xnRZIK3qC3TnAPrsSCnvl+NdumGYbiuPvV6gwy
-6ElweG47+ZWqfcS/7j42jUj+4qH5zWNw4ruWXOkgq+WNze515JRJHg5SJDxRtZVTpguPaybsHwPF
-NIYbzIKOVrQKcOUoJ7M=
+dLyaRXTUAzu9/s/G7LfYWqWobwPfsHTJf2Xyf4rVdMm/DJ4rT/NLfAdVxh0xaL16+xbtkKrEaEKu
+Fp5iZFL1mrhfaikY9vBhg6WSZsfWpVSssBSBG52Tyq2Ta+OHCm8NvlIsAOUa6zSi5SP9lzd4YomY
+uZeq8dqS0ULHKhMG0hc=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
