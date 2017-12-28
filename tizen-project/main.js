@@ -360,6 +360,8 @@ function getMovie(title) {
                         document.getElementById("card-" + nextLoc).style.backgroundColor = "#0F3240";
                         document.getElementById(currCard).style.backgroundColor = "rgba(0, 0, 0, 0.0)";
                         currentCursor1Location = currentCursor1Location - 1;
+                        docuem
+
                     }
                     else {
                         console.log("Listenende oben erreicht!");

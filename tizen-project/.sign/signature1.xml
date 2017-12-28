@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>ZVLOqIPjo4Ch1JFuKIGpDVI0Lxj1kJlfzN955NSLx4I=</DigestValue>
+<DigestValue>iPDkGjBtqv2LNxid9JMLItvA+4fZakx2oCpZJitauGM=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -80,11 +80,19 @@
 </Reference>
 <Reference URI="main.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>VR4Z/DTeWEuehDDuQ7OpwT6MWK0WO8777yDW+dIko/c=</DigestValue>
+<DigestValue>J7dJc7bB9SCjr2RkoCbcKa5cjZ6eECEkpQE8n0ufRvo=</DigestValue>
 </Reference>
 <Reference URI="res%2FLogoBig.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>vG18RqUPKYY0EIp0lDgCAa8uAvsaCFZG9WW9RvBhQMk=</DigestValue>
+</Reference>
+<Reference URI="res%2FSKYfontThick.ttf">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>oOzQruEky6aPIirb1o7ntYgGdq7vItGKG1ocSYwG6EE=</DigestValue>
+</Reference>
+<Reference URI="res%2Fage.svg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>jRNJWlCXTQZQsyQEQQ4HCvkPFd3UmijeE8Qc1aCOkEM=</DigestValue>
 </Reference>
 <Reference URI="res%2FlogoBig.svg">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -102,9 +110,13 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>Mu/6o/7suS1imPy0B0xKU+2P3I6rIhrYecld9YsE3T4=</DigestValue>
 </Reference>
+<Reference URI="res%2Ftmdb.svg">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>cJYCvMVCf7qCm+OHEPrmpno9Q2fv4bet6ILEpYn4+aU=</DigestValue>
+</Reference>
 <Reference URI="style.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>XusptRE32EVpmJxzjDaVOCgEjXcd6fTxQ1baSB6xfM4=</DigestValue>
+<DigestValue>D9car/ExwJcFjWriOSntds7RQP/yRl3sTO4r0miVcnQ=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -115,9 +127,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-JJAu+lxR8HsKN9QxyOQYqZMDYUxyZlkQwgCN8URVN+m831/nUI1fXIyzWtkEcKYxZcp+PV/iAnSi
-DVfl0RUrBgr1XRV/wlBC2BNm489AuFoOfR1icizZAjNvX6+sMjlc3HygFuksxttxJj+gWF+3RKUq
-zvpBnrM4lGi71s0gMac=
+Da/OTkaLn/mEttwmPpl/jxMtKgbUu1hO60l+gv7VndzqShZ5a8UD5+Zj5gtMYU7jQzpF8OF7vjy4
+rocYrvwAcPfM/xl1CdHrcS6qm5fAx/jbtNRngLVg8Q/SF7oZy8kGXL4s1iCYTk0iNptgtlU+y4QS
+EdsDTestc9XcwyZMzhk=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
