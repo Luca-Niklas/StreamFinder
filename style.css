@@ -1,0 +1,25 @@
+.cards {
+    
+}
+
+.card {
+    height: 23%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 80%;
+}
+
+.card-left {
+    display: block;
+    float: left;
+}
+
+.card-right {
+    display: block;
+    float: right;
+    width: 87%;
+}
+
+.card-poster {
+    height: 100%;
+}
