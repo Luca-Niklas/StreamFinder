@@ -371,7 +371,7 @@ function getMovie(title) {
             }
             else if(direction == "down"){
                 try {
-                    if(currentCursor1Location + 1 != lastResult.total_results - 1){
+                    if(currentCursor1Location != lastResult.total_results - 1){
                         var currCard = "card-" + currentCursor1Location;
                         var nextLoc = currentCursor1Location + 1;
                         document.getElementById("card-" + nextLoc).style.backgroundColor = "#0F3240";
