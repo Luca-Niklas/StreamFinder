@@ -73,6 +73,7 @@ function navTo(destination) {
 
 function startSearch() {
     getMovie(document.getElementById("query").value);
+    virtualCursor1Init();
 }
 
 function getMovie(title) {
@@ -127,7 +128,7 @@ function getMovie(title) {
         }
 
         function showMovieCard(i, title, type, description, poster, minAge, release) {
-            document.getElementById("cards").innerHTML = document.getElementById("cards").innerHTML + '<div class="card" onclick="showDetails('+i+')"><div class="card-left"><img class="card-poster" src="' + poster + '"></div><div class="card-right"><h1 class="card-title">' + title + '<b class="card-subtitle">' + release + '</b></h1><h3 class="card-subsubtitle">' + type + '</h3><p class="card-description">' + description + '</p><p class="card-min-age">' + minAge + '</p></div></div>';
+            document.getElementById("cards").innerHTML = document.getElementById("cards").innerHTML + '<div class="card" onclick="showDetails('+i+')" id="card-' + i + '"><div class="card-left"><img class="card-poster" src="' + poster + '"></div><div class="card-right"><h1 class="card-title">' + title + '<b class="card-subtitle">' + release + '</b></h1><h3 class="card-subsubtitle">' + type + '</h3><p class="card-description">' + description + '</p><p class="card-min-age">' + minAge + '</p></div></div>';
         }
 
         function showDetails(number) {
@@ -329,3 +330,106 @@ function getMovie(title) {
             }
             return false;
         }
+
+        var currentCursor1Location;
+
+        function virtualCursor1Init() {
+            try {
+                document.getElementById("card-0").style.backgroundColor = "#0F3240";
+                currentCursor1Location = 0;
+            }
+            catch(e){
+                console.log(e);
+            }
+        }
+
+        function virtualCursor1Move(direction) {
+            if(direction == "up"){
+                try {
+                    if(currentCursor1Location != 0){
+                        var currCard = "card-" + currentCursor1Location;
+                        var nextLoc = currentCursor1Location - 1;
+                        document.getElementById("card-" + nextLoc).style.backgroundColor = "#0F3240";
+                        document.getElementById(currCard).style.backgroundColor = "rgba(0, 0, 0, 0.0)";
+                        currentCursor1Location = currentCursor1Location - 1;
+                    }
+                    else {
+                        console.log("Listenende oben erreicht!");
+                    }
+                }
+                catch(e) {
+                    console.warn(e);
+                }
+            }
+            else if(direction == "down"){
+                try {
+                    if(currentCursor1Location + 1 != lastResult.total_results - 1){
+                        var currCard = "card-" + currentCursor1Location;
+                        var nextLoc = currentCursor1Location + 1;
+                        document.getElementById("card-" + nextLoc).style.backgroundColor = "#0F3240";
+                        document.getElementById(currCard).style.backgroundColor = "rgba(0, 0, 0, 0.0)";
+                        currentCursor1Location = currentCursor1Location + 1;                        
+                    }
+                    else {
+                        console.log("Listenende unten erreicht!");
+                    }
+                }
+                catch(e) {
+                    console.warn(e);
+                }
+            }
+            else{
+                console.warn("Unknown direction");
+            }
+        }
+        
+        document.addEventListener('keydown', function(e) {
+        	if (currentLocation == "home") {
+                switch(e.keyCode){
+                    case 37: //LEFT arrow
+                        break;
+                    case 38: //UP arrow
+                        break;
+                    case 39: //RIGHT arrow
+                        break;
+                    case 40: //DOWN arrow
+                        break;
+                    case 13: //OK button
+                        startSearch();
+                        break;
+                    case 10009: //RETURN button
+                        tizen.application.getCurrentApplication().exit();
+                        break;
+                    case 65376: //Fertig button
+                        startSearch();
+                        break;
+                    default:
+                        console.log('Key code : ' + e.keyCode);
+                        break;
+                }
+            }
+            else if (currentLocation == "multiResults") {
+                switch(e.keyCode){
+                    case 37: //LEFT arrow
+                        break;
+                    case 38: //UP arrow
+                        virtualCursor1Move("up");
+                        break;
+                    case 39: //RIGHT arrow
+                        break;
+                    case 40: //DOWN arrow
+                        virtualCursor1Move("down");
+                        break;
+                    case 13: //OK button
+                        startSearch();
+                        break;
+                    case 10009: //RETURN button
+                        navTo("home");
+                        document.getElementById("query").focus();
+                        break;
+                    default:
+                        console.log('Key code : ' + e.keyCode);
+                        break;
+                }
+            }
+        });
