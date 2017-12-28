@@ -51,7 +51,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 400px;
     width: 100%;
 }
 
@@ -262,13 +262,17 @@ p {
     position: absolute;
     width: 640px;
     left: 640px;
-    background: #115154;
 }
 
 #right {
     position: absolute;
     width: 640px;
     right: 0;
+}
+
+.detail-services {
+    width: 222px;
+    float: left;
 }
 
 .detail-services-logo {
@@ -321,6 +325,11 @@ p {
 #detail-description {
     margin-top: 20px;
     font-size: 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 16;
+    -webkit-box-orient: vertical;
+    word-break: keep-all;
     font-weight: 400;
 }
 
