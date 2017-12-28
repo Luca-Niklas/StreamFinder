@@ -253,7 +253,7 @@ function getMovie(title) {
                         }
 
                         if(show && shouldBeShown(item.offers[i].provider_id)) {
-                            document.getElementById("detail-availability").innerHTML = document.getElementById("detail-availability").innerHTML + '<div class="detail-sevices"><img src="icons/'+ item.offers[i].provider_id +'.svg" class="detail-services-logo"><p class="detail-services-price" id="price-' + item.offers[i].provider_id + '">' + price + '</p></div>';
+                            document.getElementById("detail-availability").innerHTML = document.getElementById("detail-availability").innerHTML + '<div class="detail-services"><img src="icons/'+ item.offers[i].provider_id +'.svg" class="detail-services-logo"><p class="detail-services-price" id="price-' + item.offers[i].provider_id + '">' + price + '</p></div>';
 
                             shownBefore.push(item.offers[i].provider_id);
 
@@ -421,11 +421,32 @@ function getMovie(title) {
                         virtualCursor1Move("down");
                         break;
                     case 13: //OK button
-                        startSearch();
+                        showDetails(currentCursor1Location);
                         break;
                     case 10009: //RETURN button
                         navTo("home");
                         document.getElementById("query").focus();
+                        break;
+                    default:
+                        console.log('Key code : ' + e.keyCode);
+                        break;
+                }
+            }
+            else if (currentLocation == "result") {
+                switch(e.keyCode){
+                    case 37: //LEFT arrow
+                        break;
+                    case 38: //UP arrow
+                        break;
+                    case 39: //RIGHT arrow
+                        break;
+                    case 40: //DOWN arrow
+                        break;
+                    case 13: //OK button
+                        startSearch();
+                        break;
+                    case 10009: //RETURN button
+                        navTo("multiResults");
                         break;
                     default:
                         console.log('Key code : ' + e.keyCode);
