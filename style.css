@@ -51,7 +51,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 600px;
     width: 100%;
 }
 
@@ -270,18 +270,30 @@ p {
     right: 0;
 }
 
-.detail-services {
+#detail-availability {
+    margin-top: 30px;
+}
+
+.detail-services-o {
     width: 222px;
     float: left;
+}
+
+.detail-services-e {
+    width: 222px;
+    float: right;
 }
 
 .detail-services-logo {
     width: 222px;
     height: 66px;
+    margin-bottom: 10px;
 }
 
 .detail-services-price {
     text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 #box1 {
@@ -334,7 +346,7 @@ p {
 }
 
 #besch {
-    margin-top: 170px;
+    margin-top: 140px;
 }
 
 #info {
