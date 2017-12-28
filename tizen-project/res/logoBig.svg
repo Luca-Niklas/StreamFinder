@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1374.304 -2354.695 751.392 751.39">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.03;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #00dcff;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        fill: #081c24;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-0.087" y1="-0.414" x2="0.792" y2="1.361" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bcd9"/>
+      <stop offset="1" stop-color="#00c8e8"/>
+    </linearGradient>
+  </defs>
+  <g id="Gruppe_32" data-name="Gruppe 32" class="cls-1" transform="translate(94.766 -2405.233)">
+    <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-2" cx="375.695" cy="375.695" r="375.695" transform="translate(1279.538 50.538)"/>
+    <path id="Schnittmenge_4" data-name="Schnittmenge 4" class="cls-3" d="M.209,201.752S.137,201.07,0,199.776C63.091,80.934,188.117,0,332.045,0,539.537,0,707.74,168.2,707.74,375.7a374.093,374.093,0,0,1-79.284,230.87C422.453,237.231.209,201.752.209,201.752Z" transform="translate(1323.19 50.538)"/>
+    <path id="Schnittmenge_7" data-name="Schnittmenge 7" class="cls-4" d="M.342,35.542H.319c-.072-.009-.111-.012-.111-.012a.041.041,0,0,0,0-.01C.2,35.456.162,35.107.1,34.489c-.027-.265-.061-.578-.1-.938A375.328,375.328,0,0,1,20.12,0c98.159,13.912,433.5,86.308,607.793,437.506.362.725.715,1.445,1.067,2.158l-.524.676C424.584,74.823,8.909,36.3.342,35.542Z" transform="translate(1323.19 216.763)"/>
+    <path id="ic_play_arrow_24px" class="cls-5" d="M8,40.955V344.223l63.551,33.026,214.427-137.61V144.313L70.368,7.453Z" transform="translate(1519.127 233.885)"/>
+    <circle id="Ellipse_33" data-name="Ellipse 33" class="cls-5" cx="40.032" cy="40.032" r="40.032" transform="translate(1527.127 234.083)"/>
+    <circle id="Ellipse_36" data-name="Ellipse 36" class="cls-5" cx="40.032" cy="40.032" r="40.032" transform="translate(1527.127 538.326)"/>
+    <circle id="Ellipse_35" data-name="Ellipse 35" class="cls-5" cx="56.045" cy="56.045" r="56.045" transform="translate(1719.28 370.192)"/>
+  </g>
+</svg>

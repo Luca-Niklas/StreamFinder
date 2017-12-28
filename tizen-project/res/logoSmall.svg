@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="871 -2757.462 179.637 46.924">
+  <defs>
+    <style>
+      .cls-1, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #00dcff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #081c24;
+      }
+
+      .cls-5, .cls-6 {
+        font-size: 15px;
+        letter-spacing: 0.02em;
+      }
+
+      .cls-5 {
+        font-family: TitilliumWeb-Regular, Titillium Web;
+      }
+
+      .cls-6 {
+        font-family: TitilliumWeb-SemiBold, Titillium Web;
+        font-weight: 600;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-0.087" y1="-0.414" x2="0.792" y2="1.361" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bcd9"/>
+      <stop offset="1" stop-color="#00c8e8"/>
+    </linearGradient>
+  </defs>
+  <g id="Gruppe_53" data-name="Gruppe 53" transform="translate(0 -2808)">
+    <g id="Gruppe_17" data-name="Gruppe 17" transform="translate(-776.462 -243.462)">
+      <circle id="Ellipse_8" data-name="Ellipse 8" class="cls-1" cx="23.462" cy="23.462" r="23.462" transform="translate(1716 294)"/>
+      <path id="Schnittmenge_4" data-name="Schnittmenge 4" class="cls-2" d="M.013,12.6,0,12.476a23.465,23.465,0,1,1,39.247,25.4C26.382,14.816.013,12.6.013,12.6Z" transform="translate(1718.726 294)"/>
+      <path id="Schnittmenge_7" data-name="Schnittmenge 7" class="cls-3" d="M.021,2.22H.013L.006,2.154,0,2.1A23.439,23.439,0,0,1,1.256,0c6.13.869,27.072,5.39,37.957,27.322l.067.135-.033.042C26.515,4.673.556,2.267.021,2.22Z" transform="translate(1718.726 304.38)"/>
+    </g>
+    <path id="Vereinigungsmenge_1" data-name="Vereinigungsmenge 1" class="cls-4" d="M0,21.5c0-.005,0-.01,0-.015H0V2.545H0c0-.015,0-.03,0-.045A2.5,2.5,0,0,1,4.118.594L17.36,9v.035a3.5,3.5,0,0,1-.2,6.047L3.969,23.547l-.019-.01A2.5,2.5,0,0,1,0,21.5Z" transform="translate(955 62)"/>
+    <text id="Stream" class="cls-5" transform="translate(871 79.223)"><tspan x="0" y="0">Stream</tspan></text>
+    <text id="Finder" class="cls-6" transform="translate(1007.637 79.223)"><tspan x="0" y="0">Finder</tspan></text>
+  </g>
+</svg>
