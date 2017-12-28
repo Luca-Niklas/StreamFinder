@@ -6,6 +6,34 @@ body {
     margin: 0;
 }
 
+h1 {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h2 {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h3 {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+p {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -28,12 +56,12 @@ body {
 }
 
 #query {
+    height: 40px;
     width: 700px;
     border: none;
-    border-bottom: #FFF 2px solid;
+    border-bottom: #FFF 1px solid;
     background: transparent;
     color: #FFF;
-    text-indent: 10px;
     font-size: 25px;
 }
 
@@ -41,10 +69,26 @@ body {
     outline: none;
 }
 
+#but {
+    background: transparent;
+    color: #00DCFF;
+    border: none;
+    margin-left: -26px;
+    margin-bottom: 2px;
+}
+
+#but:active {
+    outline: none;
+}
+
+#but:focus {
+    outline: none;
+}
+
 #BigLogoWrapper {
     width: 750px;
     height: 750px;
-    position: absolute;
+    position: fixed;
     right: -206px;
     bottom: -125px;
     overflow: hidden;
@@ -72,32 +116,105 @@ body {
 }
 
 /* ------------------------------------
-                QUERY
+              STARTING
+-------------------------------------*/
+
+#logoStart {
+    width: 245px;
+}
+
+#startWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* ------------------------------------
+              RESULTS
 -------------------------------------*/
 
 .cards {
-    
+    z-index: 5;
 }
 
 .card {
-    /* height: 23%; */
-    height: 168px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 80%;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 50px; 
+    width: 1040px;
+    cursor: pointer;
 }
 
-.card-left {
+.card:hover {
+    background: #0F3240;
+}
+
+#result-query {
+    font-size: 20px;
+}
+
+#result-quant {
+    font-size: 15px;
+}
+
+#results {
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px; 
+    width: 1000px;
+}
+
+/* .card-left {
     display: block;
     float: left;
-}
+} */
 
 .card-right {
-    display: block;
-    float: right;
-    width: 87%;
+    height: 280px;
 }
 
 .card-poster {
-    height: 100%;
+    width: 168px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    padding-right: 60px;
+}
+
+.card-title {
+
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-subtitle {
+    font-size: 15px;
+    padding-left: 40px;
+    font-weight: 300;
+    margin-top: -29px;
+    color: #00DCFF;
+}
+
+.card-subsubtitle {
+    font-size: 20px;
+    display: none;
+}
+
+.card-description {
+    max-width: 750px;
+    margin-top: 30px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-break: keep-all;
+    font-size: 20px;
+}
+
+.card-min-age {
+    margin-top: 30px;
+    font-size: 15px;
 }

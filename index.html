@@ -5,11 +5,16 @@
         <title>Test</title>
 
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <div id="opener">
-            OPENER HIER EINFÜGEN LUCA!
-            ANIMATION ODER BILD
+            <div id="startWrapper">
+
+                <img id="logoStart" src="res/logoStart.svg">
+                
+            </div>
+
         </div>
         <div id="loading">
             HIER LADEBILDSCHIRM EINFÜGEN
@@ -19,8 +24,9 @@
                 <img id="logoSmall" src="res/logoSmall.svg">
             </div>
             <div id="queryWrapper">
-                <input type="text" id="query" autofocus>
-                <p onclick="startSearch();">Suchen</p>
+                <input type="text" id="query" autofocus> 
+                <button id="but" onclick="startSearch();"><i class="material-icons">&#xE8B6;</i></button>
+                
             </div> 
             <div id="BigLogoWrapper">
                 <img id="logoBig" src="res/logoBig.svg">
@@ -28,8 +34,16 @@
             
         </div>
         <div id="multiResults">
-            <p id="result-query"></p>
-            <p id="result-quant"></p>
+            <div id="logoWrapper">
+                <img id="logoSmall" src="res/logoSmall.svg">
+            </div>
+            <div id="results">
+                <p id="result-query"></p>
+                <p id="result-quant"></p>
+            </div>
+            <div id="BigLogoWrapper">
+                <img id="logoBig" src="res/logoBig.svg">
+            </div>
             <div id="cards"></div>
         </div>
         <div id="result">
@@ -199,8 +213,7 @@
                         <img class="card-poster" src="` + poster +`">
                     </div>
                     <div class="card-right">
-                        <h1 class="card-title">` + title + `</h1>
-                        <h2 class="card-subtitle">` + release + `</h2>
+                        <h1 class="card-title">` + title + `<b class="card-subtitle">` + release + `</b></h1>
                         <h3 class="card-subsubtitle">` + type + `</h3>
                         <p class="card-description">` + description + `</p>
                         <p class="card-min-age">` + minAge + `</p>
