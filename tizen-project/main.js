@@ -23,6 +23,7 @@ function navTo(destination) {
     }
     else if(destination === "loading") {
         document.getElementById("opener").style.display = "none";
+        document.getElementById("loadingVid").src = "res/Loading.webm";
         document.getElementById("loading").style.display = "block";
         document.getElementById("home").style.display = "none";
         document.getElementById("multiResults").style.display = "none";
@@ -340,6 +341,7 @@ function getMovie(title) {
         }
 
         var currentCursor1Location;
+        var currentCursor1ScrollLocation = 0;
 
         function virtualCursor1Init() {
             try {
@@ -360,8 +362,8 @@ function getMovie(title) {
                         document.getElementById("card-" + nextLoc).style.backgroundColor = "#0F3240";
                         document.getElementById(currCard).style.backgroundColor = "rgba(0, 0, 0, 0.0)";
                         currentCursor1Location = currentCursor1Location - 1;
-                        docuem
-
+                        document.body.scrollTop -= 290;
+                        currentCursor1ScrollLocation = document.body.scrollTop;
                     }
                     else {
                         console.log("Listenende oben erreicht!");
@@ -379,6 +381,8 @@ function getMovie(title) {
                         document.getElementById("card-" + nextLoc).style.backgroundColor = "#0F3240";
                         document.getElementById(currCard).style.backgroundColor = "rgba(0, 0, 0, 0.0)";
                         currentCursor1Location = currentCursor1Location + 1;                        
+                        document.body.scrollTop += 290;
+                        currentCursor1ScrollLocation = document.body.scrollTop;
                     }
                     else {
                         console.log("Listenende unten erreicht!");
@@ -457,6 +461,8 @@ function getMovie(title) {
                         break;
                     case 10009: //RETURN button
                         navTo("multiResults");
+                        document.body.scrollTop = currentCursor1ScrollLocation;
+                        document.getElementById("detail-availability").innerHTML = "";
                         break;
                     default:
                         console.log('Key code : ' + e.keyCode);

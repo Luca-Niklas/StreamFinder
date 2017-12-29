@@ -4,7 +4,7 @@
     <author href="http://nschroetler.de" email="privat@nschroetler.de">Niklas Schrötler</author>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
-    <icon src="icon.png"/>
+    <icon src="logoSmall.png"/>
     <tizen:metadata key="http://samsung.com/tv/metadata/prelaunch.support" value="true"/>
     <name>StreamFinder</name>
     <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
