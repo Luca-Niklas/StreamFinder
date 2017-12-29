@@ -283,12 +283,12 @@ function getMovie(title) {
             document.getElementById("detail-description").innerHTML = description;
             document.getElementById("left").style.backgroundImage = "url(" + poster + ")";
             if (normalRating){
-                document.getElementById("detail-rating").innerHTML = '<span class="detail-rating-real">'+ rating +'</span> / 10';
+                document.getElementById("detail-rating").innerHTML = '<b class="detail-rating-real">'+ rating +'</b> / 10';
             }
             else {
                 document.getElementById("detail-rating").innerHTML = rating;
             }
-            document.getElementById("detail-min-age").innerHTML = minAge;
+            document.getElementById("detail-min-age").innerHTML = minAge + " Jahren";
             document.getElementById("detail-runtime").innerHTML = runtime;
             //document.getElementById("detail-availability").innerHTML = services;
 

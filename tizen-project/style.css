@@ -321,9 +321,8 @@ p {
 
 #detail-title {
     z-index: 10;
+    width: 540px;
     bottom: 60px;
-    height: 130px;
-    overflow: hidden;
     font-size: 50px;
     font-weight: 600;
     line-height: 50px;
@@ -350,7 +349,7 @@ p {
 }
 
 #info {
-    margin-top: 55px;
+    margin-top: 30px;
 }
 
 #tmdb {
@@ -401,4 +400,26 @@ table {
 #time {
     font-size: 29px;
     color: #00DCFF;
+}
+
+.detail-rating-real {
+    font-weight: 500;
+}
+
+#sourceWrapper {
+    margin-top: 5px;
+    width: 100%;
+    text-align: right;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+#source2Wrapper {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 100%;
+    text-align: right;
+    opacity: 0.5;
+    font-size: 12px;
 }
