@@ -6,11 +6,6 @@ body {
     margin: 0;
 }
 
-@font-face {
-    font-family: "SKY";
-    src: url(res/SKYfontThick.ttf) format("truetype");
-}
-
 h1 {
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
@@ -293,7 +288,6 @@ p {
     width: 222px;
     height: 66px;
     margin-bottom: 10px;
-    font-family: 'SKY';
 }
 
 .detail-services-price {
