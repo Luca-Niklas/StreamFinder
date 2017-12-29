@@ -297,8 +297,11 @@ p {
 }
 
 #box1 {
+    z-index: 5;
     width: 540px;
-    margin: 0 auto;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 0px;
 }
 
 #box2 {
@@ -314,15 +317,14 @@ p {
 #detail-year {
     z-index: 10;
     font-weight: 500;
-    position: absolute;
     font-size: 30px;
-    bottom: 190px;
+    margin-bottom: 10px;
 }
 
 #detail-title {
     z-index: 10;
     width: 540px;
-    bottom: 60px;
+    margin-bottom: 60px;
     font-size: 50px;
     font-weight: 600;
     line-height: 50px;
@@ -330,7 +332,6 @@ p {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     word-break: keep-all;
-    position: absolute;
 }
 
 #detail-description {

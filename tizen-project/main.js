@@ -300,7 +300,7 @@ function getMovie(title) {
             else {
                 document.getElementById("detail-rating").innerHTML = rating;
             }
-            document.getElementById("detail-min-age").innerHTML = minAge + " Jahren";
+            document.getElementById("detail-min-age").innerHTML = minAge;
             document.getElementById("detail-runtime").innerHTML = runtime;
             //document.getElementById("detail-availability").innerHTML = services;
 
