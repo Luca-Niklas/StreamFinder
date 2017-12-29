@@ -119,7 +119,13 @@ function getMovie(title) {
                 var type = item.object_type;
                 var release = item.original_release_year;
                 var description = item.short_description;
-                var minAge = "ab " + item.age_certification;
+                var minAge;
+                if(!isNaN(item.age_certification)){
+                    minAge = "ab " + item.age_certification + " Jahren";
+                }
+                else {
+                    minAge = "Kein Mindestalter gefunden";
+                }
 
                 showMovieCard(i, title, type, description, poster, minAge, release);
             }
@@ -163,7 +169,13 @@ function getMovie(title) {
                 normalRating = false;
                 rating = "Keine Angabe";
             }
-            var minAge = "ab " + item.age_certification;
+            var minAge;
+            if(!isNaN(item.age_certification)){
+                minAge = "ab " + item.age_certification + " Jahren";
+            }
+            else {
+                minAge = "Kein Mindestalter gefunden";
+            }
             var services = "";
             var flatrates = [];
             var shownBefore = [];
