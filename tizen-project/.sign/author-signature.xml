@@ -2,9 +2,13 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="StreamFinder(d).wgt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PHE+tykW6Y6sag/PFSFU6cF5N2CztZS5ttBvQY5o1zM=</DigestValue>
+</Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>xgjfNece6mqgVf7h7ZY+uBRLjythfVvatXY92YGV+U0=</DigestValue>
+<DigestValue>Sgu/4YU0RPXhWWPmFp8rXNf8sv4Yrzz1niPahnjs3wo=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -147,9 +151,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-bCHon4kRYYP6AJM4hbaNdBNRwMN+F3hA+VjtBwc+f5H9VpHeegOIQyL1sMgSdqwzAu5ldNSOOcjb
-GAe8l9/cZtBkSonb7U+sLgdp/U9SUs/g0yQN9ulpWoOQAf5Kl1ycLs2iBmyz1pOufLKl6W7aK3qq
-tjCkWzR5Zp24uXnJN6g=
+jywSlZBMfa0ZjJO1+AGmjfULonOH0bkfvP8inyDDOpcp+3qXYVDlx39gOlOrKH+xlvglhKW3sM9d
+6lzwtzDpzD36NWNrqYr7oQdPkD74wwa5s3DL3lGVjU0crdIznimm/ZexvymCS/mPTHoj1pXTqUKd
+WHiup4/lnGj6tHr3F5A=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

@@ -2,13 +2,17 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="StreamFinder(d).wgt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PHE+tykW6Y6sag/PFSFU6cF5N2CztZS5ttBvQY5o1zM=</DigestValue>
+</Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>fIYi5Vr+Z+lBuk118cl+t40jRsNGOwUXRbBLv95w0dk=</DigestValue>
+<DigestValue>6UbYDVIRM7saW/HJtshJbsxMAvdV2HhLtc1Wiv9EkXA=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>xgjfNece6mqgVf7h7ZY+uBRLjythfVvatXY92YGV+U0=</DigestValue>
+<DigestValue>Sgu/4YU0RPXhWWPmFp8rXNf8sv4Yrzz1niPahnjs3wo=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -151,9 +155,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-qThFplvD1zksWRqJEH5XoHlHHsv8swrOJ3xoV5USzHasv2LzN99zw/XVhxCoa+hdXJ37usdesWVv
-Qosrsu2/UIpOz/OUmPvt5yrG2Yry+AcsMX7yLkSvgD6PJFoeH/DLq8jJyo5AXqGx7B4U8mxGg+DJ
-MYMwCSvflSjvE4sWTW0=
+NFucBMv8E/Vm8YTwoTsnKKnb1zC7irBrekVUJA0Joa6234fe6RbLsvn9DxQPMwHnAugNpw3Fx9Gl
+BlERVtQYK6HfirdM30koFjZVhcLbFn4+ya2K6gWU4A1D1fm6br/BHIth8tWJg1mP7vtrNrNWArgk
+dqiQ/jcr1NEIKuHEDls=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
