@@ -2,17 +2,25 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
-<Reference URI="StreamFinder(d).wgt">
+<Reference URI="StreamFinder(1-0-0).wgt">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>PHE+tykW6Y6sag/PFSFU6cF5N2CztZS5ttBvQY5o1zM=</DigestValue>
 </Reference>
+<Reference URI="StreamFinder(1-0-1).wgt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>aRYGgokO7o4Q5L8ykR10M6VimNia8ypz5vwJWRTeifI=</DigestValue>
+</Reference>
+<Reference URI="StreamFinder1%200%202.wgt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IHMpxvN+qzHESnQnzyXzhjxo3fZJSYYQWLx6WXAIy0w=</DigestValue>
+</Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>6UbYDVIRM7saW/HJtshJbsxMAvdV2HhLtc1Wiv9EkXA=</DigestValue>
+<DigestValue>dPmerjh2/rBZ4j73N1NECkDob75t5Qpe2Sz3Z8r8ZZg=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Sgu/4YU0RPXhWWPmFp8rXNf8sv4Yrzz1niPahnjs3wo=</DigestValue>
+<DigestValue>W3xBnbiXAoioGc6XyzwrOYnXguxLpoX34oQ89u2kuGA=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -80,7 +88,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>i66wxQL+0WIrw0XGqAD5lnIH28AN4sV+DubYbmfg+7s=</DigestValue>
+<DigestValue>Z6Wz+xJ6zDS7A3njSgbsCckmc1IPOSZOGi08q1QX6xc=</DigestValue>
 </Reference>
 <Reference URI="logo%2FlogoSmall.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -92,7 +100,7 @@
 </Reference>
 <Reference URI="main.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>PLZxeeW8GlrTn3SYxPflZFU65/vLy7WmHMDhHZ0MnN0=</DigestValue>
+<DigestValue>HThMEfyebaXkY3Xk214CvZj1XcwH+YNeAN9kzPdyo8g=</DigestValue>
 </Reference>
 <Reference URI="res%2FLoading.mov">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -155,9 +163,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-NFucBMv8E/Vm8YTwoTsnKKnb1zC7irBrekVUJA0Joa6234fe6RbLsvn9DxQPMwHnAugNpw3Fx9Gl
-BlERVtQYK6HfirdM30koFjZVhcLbFn4+ya2K6gWU4A1D1fm6br/BHIth8tWJg1mP7vtrNrNWArgk
-dqiQ/jcr1NEIKuHEDls=
+FkcZ4JFaRDvYXZJwfZI/Uet/fOvLMg0DcCWzudVf/c14TO28j5xjj4lN6MxE/R57rnMdBPmWmnwB
+XXZ/CPAV+DXBS7IcrlUPwB4TSjfghNTR/SzvIXylCbyjfzQUtpBComF9l6sB78Om9/Q15g5NCSso
+kGM+mM+APyHyX7ot60s=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

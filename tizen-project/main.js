@@ -421,7 +421,8 @@ function getMovie(title) {
                     case 40: //DOWN arrow
                         break;
                     case 13: //OK button
-                        startSearch();
+                    	document.getElementById("query").blur();
+                    	document.getElementById("query").focus();
                         break;
                     case 10009: //RETURN button
                         tizen.application.getCurrentApplication().exit();
